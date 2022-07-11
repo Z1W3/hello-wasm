@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 openssl = { version = "0.10.40", features = ["vendored"]}
 
-[patch.crates-io]
-openssl-src = { git = "https://github.com/alexcrichton/openssl-src-rs.git" }
+# [patch.crates-io]
+# openssl-src = { git = "https://github.com/alexcrichton/openssl-src-rs.git" }
