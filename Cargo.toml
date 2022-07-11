@@ -1,0 +1,12 @@
+[package]
+name = "hello-wasm4"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openssl = { version = "0.10.40", features = ["vendored"]}
+
+[patch.crates-io]
+openssl-src = { git = "https://github.com/alexcrichton/openssl-src-rs.git" }
